@@ -4,39 +4,60 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programfornewpc.Shabat">
    <children>
-      <Button fx:id="steamButton" layoutX="130.0" mnemonicParsing="false" onAction="#openSteam" prefHeight="80.0" prefWidth="134.0" text="STEAM" />
-      <Button fx:id="epicButton" layoutX="264.0" mnemonicParsing="false" onAction="#openEpic" prefHeight="80.0" prefWidth="134.0" text="EPIC" />
-      <Button fx:id="ubisoftButton" layoutX="532.0" mnemonicParsing="false" onAction="#openUbisoft" prefHeight="80.0" prefWidth="134.0" text="UBISOFT" />
-      <Button fx:id="eaButton" layoutX="398.0" mnemonicParsing="false" onAction="#openEA" prefHeight="80.0" prefWidth="134.0" text="EA" />
-      <Button fx:id="operaButton" alignment="CENTER" layoutX="398.0" layoutY="80.0" mnemonicParsing="false" onAction="#openOpera" prefHeight="80.0" prefWidth="134.0" text="Opera" textOverrun="CLIP" />
-      <Button fx:id="firefoxButton" layoutX="130.0" layoutY="80.0" mnemonicParsing="false" onAction="#openFirefox" prefHeight="80.0" prefWidth="134.0" text="firefox" />
-      <Button fx:id="chromeButton" layoutX="264.0" layoutY="80.0" mnemonicParsing="false" onAction="#openChrome" prefHeight="80.0" prefWidth="134.0" text="Google Chrome" />
-      <Button fx:id="braveButton" layoutX="532.0" layoutY="80.0" mnemonicParsing="false" onAction="#openBrave" prefHeight="80.0" prefWidth="134.0" text="Brave" />
-      <Button fx:id="discordButton" layoutX="264.0" layoutY="160.0" mnemonicParsing="false" onAction="#openDiscord" prefHeight="80.0" prefWidth="134.0" text="discord" />
-      <Button fx:id="vlcButton" layoutX="398.0" layoutY="160.0" mnemonicParsing="false" onAction="#openVLC" prefHeight="80.0" prefWidth="134.0" text="VLC" />
-      <Button fx:id="winrarButton" layoutX="130.0" layoutY="160.0" mnemonicParsing="false" onAction="#openWinrar" prefHeight="80.0" prefWidth="134.0" text="winrar" />
-      <Button fx:id="revoButton" layoutX="532.0" layoutY="160.0" mnemonicParsing="false" onAction="#openRevo" prefHeight="80.0" prefWidth="134.0" text="REVOuninstaller" />
-      <Label layoutX="14.0" layoutY="30.0" text="LAUNCHERS-&gt;" />
-      <Label layoutX="26.0" layoutY="110.0" text="browser -&gt;" />
-      <Label layoutX="25.0" layoutY="190.0" text="software -&gt;" />
-      <Label layoutX="33.0" layoutY="430.0" text="piracy -&gt;" />
-      <Button fx:id="monkrusOfficeButton" layoutX="130.0" layoutY="411.0" mnemonicParsing="false" onAction="#openMonkrusOffice" prefHeight="80.0" prefWidth="184.0" text="M0NKRUS OFFICE" textOverrun="WORD_ELLIPSIS" />
-      <Button fx:id="windirstatButton" layoutX="130.0" layoutY="240.0" mnemonicParsing="false" onAction="#openWindirstat" prefHeight="80.0" prefWidth="134.0" text="WinDirstat" />
-      <Button fx:id="nvidiaAppButton" layoutX="264.0" layoutY="240.0" mnemonicParsing="false" onAction="#openNvidiaApp" prefHeight="80.0" prefWidth="134.0" text="nvidia app" />
-      <Button fx:id="amdDriversButton" layoutX="398.0" layoutY="240.0" mnemonicParsing="false" onAction="#openAmdDrivers" prefHeight="80.0" prefWidth="134.0" text="amd drivers" />
-      <Button fx:id="cpuZButton" layoutX="532.0" layoutY="240.0" mnemonicParsing="false" onAction="#openCpuZ" prefHeight="80.0" prefWidth="134.0" text="cpu-z" />
-      <Button fx:id="torBrowserButton" layoutX="666.0" layoutY="80.0" mnemonicParsing="false" onAction="#openTorBrowser" prefHeight="80.0" prefWidth="134.0" text="Tor Browser" />
-      <Button fx:id="officeActiveDownloadButton" layoutX="130.0" layoutY="491.0" mnemonicParsing="false" onAction="#openOfficeActiveDownload" prefHeight="80.0" prefWidth="279.0" text="office windows active and download" textOverrun="WORD_ELLIPSIS" />
-      <Button fx:id="monkrusPhotoshopButton" layoutX="314.0" layoutY="411.0" mnemonicParsing="false" onAction="#openMonkrusPhotoshop" prefHeight="80.0" prefWidth="184.0" text="M0NKRUS PHOTOSHOP" textOverrun="WORD_ELLIPSIS" />
+      <Button fx:id="steamButton" layoutX="130.0" mnemonicParsing="false" onAction="#openSteam" prefHeight="55.0" prefWidth="116.0" text="STEAM" />
+      <Button fx:id="epicButton" layoutX="264.0" mnemonicParsing="false" onAction="#openEpic" prefHeight="55.0" prefWidth="107.0" text="EPIC" />
+      <Button fx:id="ubisoftButton" layoutX="532.0" mnemonicParsing="false" onAction="#openUbisoft" prefHeight="55.0" prefWidth="99.0" text="UBISOFT" />
+      <Button fx:id="eaButton" layoutX="398.0" mnemonicParsing="false" onAction="#openEA" prefHeight="55.0" prefWidth="99.0" text="EA" />
+      <Button fx:id="operaButton" alignment="CENTER" layoutX="398.0" layoutY="91.0" mnemonicParsing="false" onAction="#openOpera" prefHeight="55.0" prefWidth="116.0" text="Opera" textOverrun="CLIP" />
+      <Button fx:id="firefoxButton" layoutX="130.0" layoutY="91.0" mnemonicParsing="false" onAction="#openFirefox" prefHeight="55.0" prefWidth="116.0" text="firefox" />
+      <Button fx:id="chromeButton" layoutX="264.0" layoutY="91.0" mnemonicParsing="false" onAction="#openChrome" prefHeight="55.0" prefWidth="116.0" text="Google Chrome" />
+      <Button fx:id="braveButton" layoutX="532.0" layoutY="91.0" mnemonicParsing="false" onAction="#openBrave" prefHeight="55.0" prefWidth="107.0" text="Brave" />
+      <Button fx:id="discordButton" layoutX="264.0" layoutY="171.0" mnemonicParsing="false" onAction="#openDiscord" prefHeight="55.0" prefWidth="107.0" text="discord" />
+      <Button fx:id="vlcButton" layoutX="398.0" layoutY="171.0" mnemonicParsing="false" onAction="#openVLC" prefHeight="55.0" prefWidth="107.0" text="VLC" />
+      <Button fx:id="winrarButton" layoutX="130.0" layoutY="171.0" mnemonicParsing="false" onAction="#openWinrar" prefHeight="55.0" prefWidth="107.0" text="winrar" />
+      <Button fx:id="revoButton" layoutX="532.0" layoutY="171.0" mnemonicParsing="false" onAction="#openRevo" prefHeight="55.0" prefWidth="107.0" text="REVOuninstaller" />
+      <Label layoutX="3.0" layoutY="28.0" prefHeight="20.0" prefWidth="134.0" text="LAUNCHERS-&gt;" underline="true">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="105.0" prefHeight="31.0" prefWidth="99.0" text="browser -&gt;" underline="true">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label layoutX="16.0" layoutY="188.0" text="software -&gt;" underline="true">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="430.0" text="piracy -&gt;">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Label>
+      <Button fx:id="monkrusOfficeButton" layoutX="130.0" layoutY="411.0" mnemonicParsing="false" onAction="#openMonkrusOffice" prefHeight="55.0" prefWidth="149.0" text="M0NKRUS OFFICE" textOverrun="WORD_ELLIPSIS" />
+      <Button fx:id="windirstatButton" layoutX="130.0" layoutY="240.0" mnemonicParsing="false" onAction="#openWindirstat" prefHeight="55.0" prefWidth="107.0" text="WinDirstat" />
+      <Button fx:id="nvidiaAppButton" layoutX="264.0" layoutY="240.0" mnemonicParsing="false" onAction="#openNvidiaApp" prefHeight="55.0" prefWidth="107.0" text="nvidia app" />
+      <Button fx:id="amdDriversButton" layoutX="398.0" layoutY="240.0" mnemonicParsing="false" onAction="#openAmdDrivers" prefHeight="55.0" prefWidth="107.0" text="amd drivers" />
+      <Button fx:id="cpuZButton" layoutX="532.0" layoutY="240.0" mnemonicParsing="false" onAction="#openCpuZ" prefHeight="55.0" prefWidth="107.0" text="cpu-z" />
+      <Button fx:id="torBrowserButton" layoutX="666.0" layoutY="91.0" mnemonicParsing="false" onAction="#openTorBrowser" prefHeight="55.0" prefWidth="107.0" text="Tor Browser" />
+      <Button fx:id="officeActiveDownloadButton" layoutX="130.0" layoutY="491.0" mnemonicParsing="false" onAction="#openOfficeActiveDownload" prefHeight="65.0" prefWidth="234.0" text="office windows active and download" textOverrun="WORD_ELLIPSIS" />
+      <Button fx:id="monkrusPhotoshopButton" layoutX="314.0" layoutY="411.0" mnemonicParsing="false" onAction="#openMonkrusPhotoshop" prefHeight="55.0" prefWidth="149.0" text="M0NKRUS PHOTOSHOP" textOverrun="WORD_ELLIPSIS" />
       <Button fx:id="monkrusOffice2Button" layoutX="829.0" layoutY="338.0" mnemonicParsing="false" onAction="#openMonkrusOffice2" prefHeight="31.0" prefWidth="99.0" text="search" textOverrun="WORD_ELLIPSIS" />
       <Button fx:id="searchButton" layoutX="847.0" layoutY="476.0" mnemonicParsing="false" onAction="#performSearch" text="search" />
-      <Button fx:id="onlineFixButton" layoutX="409.0" layoutY="492.0" mnemonicParsing="false" onAction="#openOnlineFix" prefHeight="80.0" prefWidth="134.0" text="online-fix" />
-      <Button fx:id="monkrusAdobeButton" layoutX="543.0" layoutY="491.0" mnemonicParsing="false" onAction="#openMonkrusAdobe" prefHeight="80.0" prefWidth="184.0" text="M0NKRUS Adobe" textOverrun="WORD_ELLIPSIS" />
+      <Button fx:id="onlineFixButton" layoutX="409.0" layoutY="492.0" mnemonicParsing="false" onAction="#openOnlineFix" prefHeight="65.0" prefWidth="99.0" text="online-fix" />
+      <Button fx:id="monkrusAdobeButton" layoutX="543.0" layoutY="491.0" mnemonicParsing="false" onAction="#openMonkrusAdobe" prefHeight="65.0" prefWidth="134.0" text="M0NKRUS Adobe" textOverrun="WORD_ELLIPSIS" />
       <TextField fx:id="fitgirlsearch" layoutX="785.0" layoutY="425.0" promptText="search on fit girl" />
       <TextField fx:id="allkeyshopsearch" layoutX="785.0" layoutY="295.0" promptText="search on allkeyshop" />
-      <Button fx:id="Lossless" layoutX="130.0" layoutY="320.0" mnemonicParsing="false" onAction="#Lossless" prefHeight="80.0" prefWidth="134.0" text="Lossless Scaling 2.0" />
+      <Button fx:id="Lossless" layoutX="138.0" layoutY="326.0" mnemonicParsing="false" onAction="#Lossless" prefHeight="55.0" prefWidth="134.0" text="Lossless Scaling 2.0" />
+      <Label layoutX="14.0" layoutY="345.0" text="usefull program-&gt;" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="sandboxie" layoutX="297.0" layoutY="326.0" mnemonicParsing="false" onAction="#sandboxie" prefHeight="55.0" prefWidth="134.0" text="sandboxie" />
+      <Button fx:id="pircy_wiki" layoutX="476.0" layoutY="410.0" mnemonicParsing="false" onAction="#pircy_wiki" prefHeight="55.0" prefWidth="134.0" text="pircy wiki" />
+      <Button fx:id="drive_program" layoutX="631.0" layoutY="410.0" mnemonicParsing="false" onAction="#drive_program" prefHeight="55.0" prefWidth="107.0" text="תוכנות בדרייב" />
    </children>
 </Pane>
