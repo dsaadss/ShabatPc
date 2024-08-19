@@ -71,6 +71,32 @@ public class Shabat {
     @FXML
     private Button Lossless;
     
+    @FXML
+    private Button sandboxie;
+
+    @FXML
+    private Button pircy_wiki;
+
+    @FXML
+    private Button drive_program;
+    
+    @FXML
+    void pircy_wiki(ActionEvent event) {
+        openURL("https://rentry.org/pgames");
+
+    }
+
+    @FXML
+    void sandboxie(ActionEvent event) {
+        openURL("https://sandboxie-plus.com/");
+
+    }
+    
+    @FXML
+    void drive_program(ActionEvent event) {
+        openURL("https://drive.google.com/drive/u/6/folders/12-9_sqG32Ermscp8Bt5tkDozHdPFjfMI");
+
+    }
 
     @FXML
     void Lossless(ActionEvent event) {	
